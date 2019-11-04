@@ -1,0 +1,18 @@
+{
+  "id": "paragraph-with-image",
+  "name": "Paragraph with image",
+  "srcdoc": "index.html",
+  "fieldTypes": ["Object"],
+  "parameters": {
+    "instance": [
+      {
+        "id": "position",
+        "type": "Enum",
+        "name": "Image position",
+        "options": [{"left": "Left"}, {"right": "Right"}, {"none": "No image"}],
+        "default": "left",
+        "required": true
+      }
+    ]
+  }
+}
